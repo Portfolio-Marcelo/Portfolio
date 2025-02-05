@@ -39,8 +39,17 @@
     color: var(--text-secondary);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #contact {
         display: none;
+    }
+
+    .contact-link>a:hover{
+        color: black;
+    }
+
+    .contact-link>p{
+        color: black;
+        font-weight: normal;
     }
 }

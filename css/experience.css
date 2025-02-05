@@ -14,15 +14,14 @@
 }
 
 .exp-card-list{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 1rem;
-    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 100%;
+    gap: 2rem;
 }
 
 .exp-card{
-    margin: 1rem;
     border-radius: 8px;
     width: 20rem;
     height: 25rem;
@@ -30,8 +29,12 @@
 }
 
 .exp-card:hover{
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, color 0.3 ease;
     transform: scale(1.01);
+}
+
+.exp-card:hover>header>.header-text>h4{
+    color: var(--accent-navbar-color);
 }
 
 .exp-card>header{
@@ -74,7 +77,7 @@
 }
 
 .exp-card>footer {
-    margin: auto;
+    margin:auto;
     padding: 0 1rem;
     display: flex;
     justify-content: flex-end;
@@ -104,4 +107,14 @@
     align-items: center;
     gap: 0.3rem;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    .exp-card-list{
+        gap: 1rem;
+    }
+
+    .exp-card{
+        width: 100%;
+    }
 }

@@ -93,6 +93,10 @@
     .nav-link{
         justify-content: center;
     }
+
+    .nav-item:last-child{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 600px){

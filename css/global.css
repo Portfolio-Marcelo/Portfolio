@@ -29,6 +29,10 @@ h1 {
     font-size: 30px;
 }
 
+h1,h2,h3,h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 main>p>a{
     font-weight: bold;
     text-decoration: none;
