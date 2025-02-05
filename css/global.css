@@ -1,0 +1,43 @@
+:root {
+    color-scheme: light dark;
+    font-size: 16px;
+    font-family: "Open Sans";
+    --text-color: light-dark(black, white);
+    --text-color-inverted: light-dark(white, black);
+    --text-primary: light-dark(#e5e5e5, white);
+    --text-secondary: #ffffff;
+    --bg-navbar-primary: light-dark(#262a2e, #151515);
+    --bg-navbar-secondary: light-dark(#181b1e, #1b1b2e);
+    --accent-navbar-color: light-dark(#1987fc, #3ca9fd);
+    --card-background: light-dark(white, #393f45);
+    --transition-speed: 600ms;
+}
+
+body {
+    color: var(--text-color);
+    background-color: light-dark(white, #262a2e);
+    margin: 0;
+    padding: 0;
+}
+
+body>main, body>footer {
+    margin-left: 5rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+main>p>a{
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--accent-navbar-color);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    body>main, body>footer{
+        margin-left: 0;
+    }
+}

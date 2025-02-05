@@ -1,0 +1,45 @@
+.card{
+    padding: 1rem;
+    width: 16rem;
+    border-width: 10px;
+    border-radius: 10px;
+    background-color: var(--card-background);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    background-color: #007bff13;
+    transition: background-color var(--transition-speed) ease;
+    transform: scale(1.05);
+}
+
+.card>header{
+    text-align: center;
+}
+
+.card>main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card>main>div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+@media only screen and (max-width: 600px){
+    #home>main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        max-width: 20rem;
+    }
+}
