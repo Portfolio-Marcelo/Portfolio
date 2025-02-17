@@ -1,0 +1,441 @@
+{
+    "section": [
+        {
+            "header": "Laboral",
+            "type":[
+                {
+                    "title":"",
+                    "cards": [
+                        {
+                            "header": {
+                            "img": "images/tbd.jpg",
+                            "title": "En búsqueda",
+                            "tecnologies": "Cualquiera"
+                            },
+                            "main": {
+                                "description": "En búsqueda de un trabajo"
+                            },
+                            "footer": {
+                                "type": "Desconocido",
+                                "icon": "fa-solid fa-question"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "Académica",
+            "type": [
+                {
+                    "title": "Aplicaciones Multiplataforma",
+                    "cards": [
+                        {
+                            "header": {
+                            "img": "images/peliculas.png",
+                            "title": "Recomendaciones de Películas",
+                            "tecnologies": "Flask"
+                            },
+                            "main": {
+                                "description": "Aplicación básica de recomendaciones de películas. Mediante filtros, el usuario podía visualizar diferentes películas de su interés"
+                            },
+                            "footer": {
+                                "type": "Web",
+                                "icon": "fa-solid fa-desktop"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/agrisynth.png",
+                            "title": "Agrisynth",
+                            "tecnologies": "Vue + C#"
+                            },
+                            "main": {
+                                "description": "Aplicación de administración de sumistros agrícolas y venta y alquiler de maquinaria y terrenos." 
+                            },
+                            "footer": {
+                                "type": "Web",
+                                "icon": "fa-solid fa-desktop"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/workflow1.png",
+                            "title": "Workflow",
+                            "tecnologies": "Angular"
+                            },
+                            "main": {
+                                "description": "Aplicación de administración y gestión de equipos de teletrabajo que cuenta con un administrador de tareas y un calendario" 
+                            },
+                            "footer": {
+                                "type": "Web",
+                                "icon": "fa-solid fa-desktop"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/track.png",
+                            "title": "Track My Route",
+                            "tecnologies": "Angular + SpringBoot"
+                            },
+                            "main": {
+                                "description": "Aplicación que facilita los viajes en transporte público a través de un mapa que muestra las rutas de cada vehículo de transporte público" 
+                            },
+                            "footer": {
+                                "type": "Web",
+                                "icon": "fa-solid fa-desktop"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/radiant.png",
+                            "title": "Radiant Chain",
+                            "tecnologies": "Flask"
+                            },
+                            "main": {
+                                "description": "Aplicación minimalista de venta de joyería" 
+                            },
+                            "footer": {
+                                "type": "Web",
+                                "icon": "fa-solid fa-desktop"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/fsi.png",
+                            "title": "FSI Messenger",
+                            "tecnologies": "Vue + Node.js"
+                            },
+                            "main": {
+                                "description": "Aplicación minimalista de una red social de mensajería instantánea y publicaciones" 
+                            },
+                            "footer": {
+                                "type": "Web",
+                                "icon": "fa-solid fa-desktop"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/cartunn.png",
+                            "title": "Cartunn",
+                            "tecnologies": "Nest.js + SpringBoot"
+                            },
+                            "main": {
+                                "description": "Aplicación de Compra y Venta de suministros para modificar tu carro" 
+                            },
+                            "footer": {
+                                "type": "Web",
+                                "icon": "fa-solid fa-desktop"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/moduly.png",
+                            "title": "Moduly",
+                            "tecnologies": "Node.js"
+                            },
+                            "main": {
+                                "description": "Aplicación de gestión de carteras y letras financieras. También, cuenta con una calculadora de descuentos y de TCEA" 
+                            },
+                            "footer": {
+                                "type": "Web",
+                                "icon": "fa-solid fa-desktop"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/workflow2.png",
+                            "title": "Workflow 2.0",
+                            "tecnologies": "Jetpack Compose + SpringBoot"
+                            },
+                            "main": {
+                                "description": "Segunda versión del proyecto Workflow, ahora como aplicación móvil. Cuenta con características mejoradas, como el calendario y gestor de tareas" 
+                            },
+                            "footer": {
+                                "type": "Móvil",
+                                "icon": "fa-solid fa-mobile-retro"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Sistemas",
+                    "cards": [
+                        {
+                            "header": {
+                            "img": "images/mapa-karnaugh.png",
+                            "title": "Mapa de Karnaugh",
+                            "tecnologies": "C++"
+                            },
+                            "main": {
+                                "description": [
+                                    "Algoritmo funcional con interfaz amigable del ",
+                                    {
+                                        "text": "Mapa de Karnaugh",
+                                        "url": "https://es.wikipedia.org/wiki/Mapa_de_Karnaugh"
+                                    }
+                                ] 
+                            },
+                            "footer": {
+                                "type": "Algortimo",
+                                "icon": "fa-solid fa-gear"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/promart.png",
+                            "title": "Venta de Productos de Construcción",
+                            "tecnologies": "C++"
+                            },
+                            "main": {
+                                "description": "El trabajo consistía en desarrollar una aplicación minimalista que simule la compra y venta de Productos de Construcción de la tienda Promart"
+                            },
+                            "footer": {
+                                "type": "Algortimo",
+                                "icon": "fa-solid fa-gear"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/cerrojo.png",
+                            "title": "Cerrojos Inteligentes (Simulación)",
+                            "tecnologies": "Python"
+                            },
+                            "main": {
+                                "description": "Cerrojos inteligentes que emiten una alarma si es que percibe alguna anomalía, como alta temperatura o humedad"
+                            },
+                            "footer": {
+                                "type": "IOT",
+                                "icon": "fa-solid fa-wifi"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/agente-viajero.png",
+                            "title": "El Problema del Agente Viajero",
+                            "tecnologies": "C++"
+                            },
+                            "main": {
+                                "description": [
+                                    "Algoritmo que resuelve el ",
+                                    {
+                                        "text": "Problema del Agente Viajero ",
+                                        "url": "https://es.wikipedia.org/wiki/Problema_del_viajante"
+                                    },
+                                    "y ofrecer una interfaz amigable que muestre la manera en cómo se halla el camino"
+                                ]
+                            },
+                            "footer": {
+                                "type": "Algortimo",
+                                "icon": "fa-solid fa-gear"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/aco.png",
+                            "title": "Optimización de Colonia de Hormigas (ACO)",
+                            "tecnologies": "C++"
+                            },
+                            "main": {
+                                "description": [
+                                    "Una versión más compleja del trabajo anterior. Contiene un ",
+                                    {
+                                        "text": "algoritmo ",
+                                        "url": "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms"
+                                    },
+                                    "que encuentra caminos más cortos, a coste de la velocidad"
+                                ]
+                            },
+                            "footer": {
+                                "type": "Algortimo",
+                                "icon": "fa-solid fa-gear"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/futbot.png",
+                            "title": "Futbot",
+                            "tecnologies": "SQL + NoSQL"
+                            },
+                            "main": {
+                                "description": "Manejo de base de datos de una aplicación ficticia llamada Futbot"
+                            },
+                            "footer": {
+                                "type": "Base de Datos",
+                                "icon": "fa-solid fa-database"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/rednet.png",
+                            "title": "RedNet Solutions",
+                            "tecnologies": "Cisco Packet Tracer"
+                            },
+                            "main": {
+                                "description": "Sistema de redes de una empresa ficticia que utiliza Vlans, seguridad de autenticación y rutas estáticas y dinámicas"
+                            },
+                            "footer": {
+                                "type": "Sistema",
+                                "icon": "fa-solid fa-microchip"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Videojuegos",
+                    "cards": [
+                        {
+                            "header": {
+                            "img": "images/juego-del-molino.png",
+                            "title": "El Juego del Molino",
+                            "tecnologies": "C++"
+                            },
+                            "main": {
+                                "description": [
+                                    "Videojuego para 2 jugadores que simula el ",
+                                    {
+                                        "text": "Juego del Molino",
+                                        "url": "https://es.wikipedia.org/wiki/Juego_del_molino"
+                                    }
+                                ]
+                            },
+                            "footer": {
+                                "type": "Videojuego",
+                                "icon": "fa-solid fa-gamepad"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/vacunas.png",
+                            "title": "Evidencia de la ASSA2030",
+                            "tecnologies": "C++"
+                            },
+                            "main": {
+                                "description": [
+                                    "Videojuego relacionado con la ",
+                                    {
+                                        "text": "Agenda de Salud Sostenible para las Américas 2018-2030",
+                                        "url": "https://www.paho.org/es/agenda-salud-sostenible-para-americas-2018-2030"
+                                    }
+                                ]
+                            },
+                            "footer": {
+                                "type": "Videojuego",
+                                "icon": "fa-solid fa-gamepad"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "Eventos",
+            "type":[
+                {
+                    "title":"",
+                    "cards": [
+                        {
+                            "header": {
+                            "img": "images/eduhack.jpg",
+                            "title": "Handin",
+                            "tecnologies": "Nest.js + Next.js"
+                            },
+                            "main": {
+                                "description": "Aplicación que permita a los estudiantes entrar a clases, participar en videoconferencias y conseguir cupones de descuento"
+                            },
+                            "footer": {
+                                "type": "Web",
+                                "icon": "fa-solid fa-desktop"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "Personal",
+            "type":[
+                {
+                    "title":"",
+                    "cards": [
+                        {
+                            "header": {
+                            "img": "images/anfitrion.png",
+                            "title": "Cuestionario Cáceres",
+                            "tecnologies": "Game Maker Studio 2"
+                            },
+                            "main": {
+                                "description": [
+                                    "El videojuego fue hecho para el ",
+                                    {
+                                        "text": "40 aniversario de mi colegio ",
+                                        "url": "https://youtu.be/MeR5QuRD8N0"
+                                    },
+                                    "Consiste en responder las preguntas correctamente hasta llegar al final"
+                                ]
+                            },
+                            "footer": {
+                                "type": "Videojuego",
+                                "icon": "fa-solid fa-gamepad"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/tbd.jpg",
+                            "title": "Workflow 3.0",
+                            "tecnologies": "SpringBoot + Vue + Flutter "
+                            },
+                            "main": {
+                                "description": "Mejora de las 2 aplicaciones Workflow realizadas anteriormente"
+                            },
+                            "footer": {
+                                "type": "Multiplataforma",
+                                "icon": "fa-solid fa-globe"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/juego-vida.png",
+                            "title": "El juego de la vida",
+                            "tecnologies": "C++"
+                            },
+                            "main": {
+                                "description": [
+                                    "Algoritmo que muestra gráficamente el ",
+                                    {
+                                        "text": "El juego de la vida",
+                                        "url": "https://es.wikipedia.org/wiki/Juego_de_la_vida"
+                                    }
+                                ]
+                            },
+                            "footer": {
+                                "type": "Algortimo",
+                                "icon": "fa-solid fa-gear"
+                            }
+                        },
+                        {
+                            "header": {
+                            "img": "images/chaos.png",
+                            "title": "Beat by Beat",
+                            "tecnologies": "Javascript"
+                            },
+                            "main": {
+                                "description": [
+                                    "Videjuego donde debes presionar botones antes que se acabe el tiempo. Enlace: ",
+                                    {
+                                        "text": "Videojuego",
+                                        "url": "https://videogames-backlog-marcelo.github.io/dissonant-chaos/"
+                                    }
+                                ]
+                            },
+                            "footer": {
+                                "type": "Videojuego",
+                                "icon": "fa-solid fa-gamepad"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
