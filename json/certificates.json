@@ -1,0 +1,32 @@
+{
+    "certificates": [
+        {
+            "img": "images/eduhack.jpg",
+            "title": "Handin",
+            "subtitle": "2da posición obtenida",
+            "habilities": "React - WebRTC",
+            "enlace": "https://drive.google.com/file/d/1y6Wn9Wdaj1fyxp593fn3SDmlsD-nedNA/view?usp=sharing"
+        },
+        {
+            "img": "images/toefl.png",
+            "title": "TOEFL IBT",
+            "subtitle": "92/120 (B2)",
+            "habilities": "Inglés",
+            "enlace": "https://drive.google.com/file/d/1kWUUGYca3EvbJt8tctyNkFzRAl_4eAiZ/view"
+        },
+        {
+            "img": "images/mongodb.png",
+            "title": "MongoDB Introducción",
+            "subtitle": "Certificado de MongoDB",
+            "habilities": "NoSQL - MongoDB",
+            "enlace": "https://drive.google.com/file/d/1ftgxVMMkaQF2XKM9djNBKbCtUhVYo2CX/view"
+        },
+        {
+            "img": "images/scrum.png",
+            "title": "SCRUM Fundamentals",
+            "subtitle": "Certificado de Scrum",
+            "habilities": "Scrum",
+            "enlace": "https://drive.google.com/file/d/11hr8S_LrpElvlgyFxEtY0eIiMpcQKLS2/view"
+        }
+    ]
+}

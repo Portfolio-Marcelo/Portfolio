@@ -1,0 +1,77 @@
+.crt-card-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.crt-card-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.crt-card{
+    width: 95%;
+    height: 12rem;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+
+    border-radius: 7px;
+
+    gap: 1rem;
+
+    transition: all 0.3s ease;
+
+    color: var(--text-color-inverted);
+    background-color: var(--bg-navbar-secondary);
+
+    cursor: pointer;
+}
+
+.crt-card:hover {
+    transform: scale(1.01);
+    background-color: var(--bg-navbar-primary);
+}
+
+.certificate-img{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.certificate-img>img{
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+    height: 100%;
+}
+
+.certificate-info{
+    width: 70%;
+    margin: 0 0 0 0.1rem;
+}
+
+.certificate-info>h3{
+    color: var(--accent-navbar-color);
+}
+
+@media only screen and (max-width: 1150px){
+    .crt-card-container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .certificate-img{
+        display: none;
+    }
+
+    .certificate-info{
+        margin: 0;
+        padding: 1rem;
+    }
+}

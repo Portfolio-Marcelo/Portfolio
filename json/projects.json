@@ -1,31 +1,7 @@
 {
     "section": [
         {
-            "header": "Laboral",
-            "type":[
-                {
-                    "title":"",
-                    "cards": [
-                        {
-                            "header": {
-                            "img": "images/tbd.jpg",
-                            "title": "En búsqueda",
-                            "tecnologies": "Cualquiera"
-                            },
-                            "main": {
-                                "description": "En búsqueda de un trabajo"
-                            },
-                            "footer": {
-                                "type": "Desconocido",
-                                "icon": "fa-solid fa-question"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "header": "Académica",
+            "header": "Académicos",
             "type": [
                 {
                     "title": "Aplicaciones Multiplataforma",
@@ -33,11 +9,11 @@
                         {
                             "header": {
                             "img": "images/peliculas.png",
-                            "title": "Recomendaciones de Películas",
+                            "title": "Movierec",
                             "tecnologies": "Flask"
                             },
                             "main": {
-                                "description": "Aplicación básica de recomendaciones de películas. Mediante filtros, el usuario podía visualizar diferentes películas de su interés"
+                                "description": "Aplicación de recomendaciones de películas mediante filtros y algoritmos"
                             },
                             "footer": {
                                 "type": "Web",
@@ -51,7 +27,7 @@
                             "tecnologies": "Vue + C#"
                             },
                             "main": {
-                                "description": "Aplicación de administración de sumistros agrícolas y venta y alquiler de maquinaria y terrenos." 
+                                "description": "Aplicación de administración de sumistros agrícolas" 
                             },
                             "footer": {
                                 "type": "Web",
@@ -65,7 +41,7 @@
                             "tecnologies": "Angular"
                             },
                             "main": {
-                                "description": "Aplicación de administración y gestión de equipos de teletrabajo que cuenta con un administrador de tareas y un calendario" 
+                                "description": "Aplicación de administración y gestión de equipos de teletrabajo" 
                             },
                             "footer": {
                                 "type": "Web",
@@ -79,7 +55,7 @@
                             "tecnologies": "Angular + SpringBoot"
                             },
                             "main": {
-                                "description": "Aplicación que facilita los viajes en transporte público a través de un mapa que muestra las rutas de cada vehículo de transporte público" 
+                                "description": "Aplicación que facilita los viajes en transporte público" 
                             },
                             "footer": {
                                 "type": "Web",
@@ -107,7 +83,7 @@
                             "tecnologies": "Vue + Node.js"
                             },
                             "main": {
-                                "description": "Aplicación minimalista de una red social de mensajería instantánea y publicaciones" 
+                                "description": "Aplicación minimalista de una red social de mensajería instantánea"
                             },
                             "footer": {
                                 "type": "Web",
@@ -121,7 +97,7 @@
                             "tecnologies": "Nest.js + SpringBoot"
                             },
                             "main": {
-                                "description": "Aplicación de Compra y Venta de suministros para modificar tu carro" 
+                                "description": "Aplicación de venta de modificaciones de auto" 
                             },
                             "footer": {
                                 "type": "Web",
@@ -135,7 +111,7 @@
                             "tecnologies": "Node.js"
                             },
                             "main": {
-                                "description": "Aplicación de gestión de carteras y letras financieras. También, cuenta con una calculadora de descuentos y de TCEA" 
+                                "description": "Aplicación de gestión de carteras y letras financieras" 
                             },
                             "footer": {
                                 "type": "Web",
@@ -149,7 +125,7 @@
                             "tecnologies": "Jetpack Compose + SpringBoot"
                             },
                             "main": {
-                                "description": "Segunda versión del proyecto Workflow, ahora como aplicación móvil. Cuenta con características mejoradas, como el calendario y gestor de tareas" 
+                                "description": "Segunda versión del proyecto Workflow, ahora como aplicación móvil" 
                             },
                             "footer": {
                                 "type": "Móvil",
@@ -188,7 +164,7 @@
                             "tecnologies": "C++"
                             },
                             "main": {
-                                "description": "El trabajo consistía en desarrollar una aplicación minimalista que simule la compra y venta de Productos de Construcción de la tienda Promart"
+                                "description": "Aplicación minimalista de compra y venta de Productos de Construcción"
                             },
                             "footer": {
                                 "type": "Algortimo",
@@ -202,7 +178,7 @@
                             "tecnologies": "Python"
                             },
                             "main": {
-                                "description": "Cerrojos inteligentes que emiten una alarma si es que percibe alguna anomalía, como alta temperatura o humedad"
+                                "description": "Cerrojos inteligentes que emiten sonido si es que percibe alguna anomalía"
                             },
                             "footer": {
                                 "type": "IOT",
@@ -217,12 +193,11 @@
                             },
                             "main": {
                                 "description": [
-                                    "Algoritmo que resuelve el ",
+                                    "Interfaz y algoritmo que resuelve ",
                                     {
                                         "text": "Problema del Agente Viajero ",
                                         "url": "https://es.wikipedia.org/wiki/Problema_del_viajante"
-                                    },
-                                    "y ofrecer una interfaz amigable que muestre la manera en cómo se halla el camino"
+                                    }
                                 ]
                             },
                             "footer": {
@@ -238,12 +213,11 @@
                             },
                             "main": {
                                 "description": [
-                                    "Una versión más compleja del trabajo anterior. Contiene un ",
+                                    "Aplicación que utiliza la ",
                                     {
-                                        "text": "algoritmo ",
+                                        "text": "Optimización de Colonia de Hormigas ",
                                         "url": "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms"
-                                    },
-                                    "que encuentra caminos más cortos, a coste de la velocidad"
+                                    }
                                 ]
                             },
                             "footer": {
@@ -258,7 +232,7 @@
                             "tecnologies": "SQL + NoSQL"
                             },
                             "main": {
-                                "description": "Manejo de base de datos de una aplicación ficticia llamada Futbot"
+                                "description": "Manejo de base de datos de una aplicación llamada Futbot"
                             },
                             "footer": {
                                 "type": "Base de Datos",
@@ -272,7 +246,7 @@
                             "tecnologies": "Cisco Packet Tracer"
                             },
                             "main": {
-                                "description": "Sistema de redes de una empresa ficticia que utiliza Vlans, seguridad de autenticación y rutas estáticas y dinámicas"
+                                "description": "Sistema de redes de una empresa RedNet Solutions"
                             },
                             "footer": {
                                 "type": "Sistema",
@@ -284,6 +258,26 @@
                 {
                     "title": "Videojuegos",
                     "cards": [
+                        {
+                            "header": {
+                            "img": "images/anfitrion.png",
+                            "title": "Cuestionario Cáceres",
+                            "tecnologies": "Game Maker Studio 2"
+                            },
+                            "main": {
+                                "description": [
+                                    "El videojuego tipo cuestionario hecho para el ",
+                                    {
+                                        "text": "40 aniversario de mi colegio",
+                                        "url": "https://youtu.be/MeR5QuRD8N0"
+                                    }
+                                ]
+                            },
+                            "footer": {
+                                "type": "Videojuego",
+                                "icon": "fa-solid fa-gamepad"
+                            }
+                        },
                         {
                             "header": {
                             "img": "images/juego-del-molino.png",
@@ -307,78 +301,34 @@
                         {
                             "header": {
                             "img": "images/vacunas.png",
-                            "title": "Evidencia de la ASSA2030",
+                            "title": "Deliver the Vaccines!",
                             "tecnologies": "C++"
                             },
                             "main": {
                                 "description": [
-                                    "Videojuego relacionado con la ",
+                                    "Videojuego relacionado con ",
                                     {
-                                        "text": "Agenda de Salud Sostenible para las Américas 2018-2030",
+                                        "text": "ASSA2030",
                                         "url": "https://www.paho.org/es/agenda-salud-sostenible-para-americas-2018-2030"
-                                    }
-                                ]
-                            },
-                            "footer": {
-                                "type": "Videojuego",
-                                "icon": "fa-solid fa-gamepad"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "header": "Eventos",
-            "type":[
-                {
-                    "title":"",
-                    "cards": [
-                        {
-                            "header": {
-                            "img": "images/eduhack.jpg",
-                            "title": "Handin",
-                            "tecnologies": "Nest.js + Next.js"
-                            },
-                            "main": {
-                                "description": "Aplicación que permita a los estudiantes entrar a clases, participar en videoconferencias y conseguir cupones de descuento"
-                            },
-                            "footer": {
-                                "type": "Web",
-                                "icon": "fa-solid fa-desktop"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "header": "Personal",
-            "type":[
-                {
-                    "title":"",
-                    "cards": [
-                        {
-                            "header": {
-                            "img": "images/anfitrion.png",
-                            "title": "Cuestionario Cáceres",
-                            "tecnologies": "Game Maker Studio 2"
-                            },
-                            "main": {
-                                "description": [
-                                    "El videojuego fue hecho para el ",
-                                    {
-                                        "text": "40 aniversario de mi colegio ",
-                                        "url": "https://youtu.be/MeR5QuRD8N0"
                                     },
-                                    "Consiste en responder las preguntas correctamente hasta llegar al final"
+                                    " donde debes entregar todas las vacunas a tiempo"
                                 ]
                             },
                             "footer": {
                                 "type": "Videojuego",
                                 "icon": "fa-solid fa-gamepad"
                             }
-                        },
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "Personales",
+            "type":[
+                {
+                    "title":"",
+                    "cards": [
                         {
                             "header": {
                             "img": "images/tbd.jpg",

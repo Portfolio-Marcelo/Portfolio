@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("json/data.json")
+    fetch("json/projects.json")
         .then(response => response.json())
         .then(data => {
-            const experienceContainer = document.getElementById("exp-content");
+            const experienceContainer = document.getElementById("prj-content");
 
             data.section.forEach(section => {
                 const sectionElement = document.createElement("section");
-                sectionElement.classList.add("exp-section");
+                sectionElement.classList.add("prj-section");
 
                 sectionElement.innerHTML = `
-                    <header class="exp-section-type-header">
+                    <header class="prj-section-type-header">
                         <h2>${section.header}</h2>
                     </header>
                     <main></main>
@@ -21,19 +21,19 @@ document.addEventListener("DOMContentLoaded", () => {
                     const typeElement = document.createElement("div");
 
                     typeElement.innerHTML = `
-                        <header class="exp-section-type-header">
+                        <header class="prj-section-type-header">
                             <h3>${type.title}</h3>
                         </header>
                         <div>
-                            <main class="exp-card-list"></main>
+                            <main class="prj-card-list"></main>
                         </div>
                     `;
 
-                    const cardList = typeElement.querySelector(".exp-card-list");
+                    const cardList = typeElement.querySelector(".prj-card-list");
 
                     type.cards.forEach(card => {
                         const cardElement = document.createElement("div");
-                        cardElement.classList.add("exp-card");
+                        cardElement.classList.add("prj-card");
 
                         let descriptionHTML = "";
                         if (typeof card.main.description === "string") {
